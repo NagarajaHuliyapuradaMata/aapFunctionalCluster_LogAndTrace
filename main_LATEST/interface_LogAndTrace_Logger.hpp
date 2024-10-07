@@ -20,6 +20,22 @@
 /******************************************************************************/
 /* TYPEDEFS                                                                   */
 /******************************************************************************/
+typedef unsigned char LogStream;
+typedef unsigned char MsgId;
+typedef unsigned char Params;
+
+class interface_LogAndTrace_Logger{
+   public:
+      virtual void      IsEnabled  (void)                                 = 0;
+      virtual void      Log        (MsgId ValueMsgId, Params ValueParams) = 0;
+      virtual LogStream LogDebug   (void)                                 = 0;
+      virtual LogStream LogError   (void)                                 = 0;
+      virtual LogStream LogFatal   (void)                                 = 0;
+      virtual LogStream LogInfo    (void)                                 = 0;
+      virtual LogStream LogVerbose (void)                                 = 0;
+      virtual LogStream LogWarn    (void)                                 = 0;
+      virtual LogStream WithLevel  (void)                                 = 0;
+};
 
 /******************************************************************************/
 /* CONSTS                                                                     */

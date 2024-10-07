@@ -20,6 +20,16 @@
 /******************************************************************************/
 /* TYPEDEFS                                                                   */
 /******************************************************************************/
+typedef unsigned char Logger;
+
+class interface_LogAndTrace{
+   public:
+      virtual void   Arg               (void) = 0;
+      virtual void   BinFormat         (void) = 0;
+      virtual Logger CreateLogger      (void) = 0;
+      virtual void   HexFormat         (void) = 0;
+      virtual void   remoteClientState (void) = 0;
+};
 
 /******************************************************************************/
 /* CONSTS                                                                     */
