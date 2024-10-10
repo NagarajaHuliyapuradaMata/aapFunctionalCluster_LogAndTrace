@@ -77,24 +77,31 @@ void aapFunctionalCluster_LogAndTrace::Log(
 }
 
 LogStream aapFunctionalCluster_LogAndTrace::LogDebug(void){
+   return 0;
 }
 
 LogStream aapFunctionalCluster_LogAndTrace::LogError(void){
+   return 0;
 }
 
 LogStream aapFunctionalCluster_LogAndTrace::LogFatal(void){
+   return 0;
 }
 
 LogStream aapFunctionalCluster_LogAndTrace::LogInfo(void){
+   return 0;
 }
 
 LogStream aapFunctionalCluster_LogAndTrace::LogVerbose(void){
+   return 0;
 }
 
 LogStream aapFunctionalCluster_LogAndTrace::LogWarn(void){
+   return 0;
 }
 
 LogStream aapFunctionalCluster_LogAndTrace::WithLevel(void){
+   return 0;
 }
 
 void aapFunctionalCluster_LogAndTrace::Arg(void){
