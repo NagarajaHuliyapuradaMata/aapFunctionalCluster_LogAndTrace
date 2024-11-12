@@ -20,9 +20,9 @@
 /******************************************************************************/
 /* TYPEDEFS                                                                   */
 /******************************************************************************/
-typedef unsigned char LogStream;
-typedef unsigned char MsgId;
-typedef unsigned char Params;
+typedef uint8 LogStream;
+typedef uint8 MsgId;
+typedef uint8 Params;
 
 class interface_LogAndTrace_Logger{
    public:

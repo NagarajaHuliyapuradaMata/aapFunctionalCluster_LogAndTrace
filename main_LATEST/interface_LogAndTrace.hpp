@@ -20,7 +20,7 @@
 /******************************************************************************/
 /* TYPEDEFS                                                                   */
 /******************************************************************************/
-typedef unsigned char Logger;
+typedef uint8 Logger;
 
 class interface_LogAndTrace{
    public:
